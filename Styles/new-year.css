@@ -12,14 +12,10 @@
 
 .banner-container{
     background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url('../images/Banner\ Image.png');
-    /* background-size: cover; */
-    background-position: center;
     width: 1320px;
-    height: 600px;
     background-repeat: no-repeat;
     border-radius: 16px;
     margin: 0 auto;
-    /* ekhane margin 0 auto chara hocchei na */
     margin-top: 50px;
     
 }
@@ -93,10 +89,99 @@
 /* Welcome section styles starts */
 
 .welcome-container{
-    background-image: url('../images/Vectorrr.png');
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url('../images/Vectorrr.png');
+    width: 1320px;
     height: 600px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    margin: 0 auto;
     margin-top: 120px;
-/* ekhane margin 0 auto kaj kortese na */
+    border-radius: 16px;
+
+}
+
+.welcome-content{
+    padding: 126px 552px 298px 126px;
+}
+
+.welcome-title{
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-family: 900;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.welcome-description{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 24px;
+    opacity: 80%;
+}
+
+.welcome-btn{
+    margin-top: 48px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+/* Welcome section styles ends */
+
+/* Card section styles start */
+
+.primary-color{
+    color: #FF0000;
+}
+
+.card-container{
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.card-content{
+    padding: 100px 386px 110px 385px;
+    line-height: 56px;
+}
+
+.card-description{
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+}
+
+
+.card-btn{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 28px;
+    margin-top: 48px;
+    cursor: pointer;
+}
+/* Card section styles ends */
+
+/* Coming soon styles starts */
+
+.coming-soon-container{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 120px;
 }
