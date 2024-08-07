@@ -2,3 +2,101 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner section styles starts */
+
+.banner-container{
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url('../images/Banner\ Image.png');
+    /* background-size: cover; */
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin: 0 auto;
+    /* ekhane margin 0 auto chara hocchei na */
+    margin-top: 50px;
+    
+}
+
+.banner-content{
+    text-align: center;
+    padding: 177px 344px;
+    
+}
+
+.banner-subtitle{
+    font-family: "Merriweather", serif;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+.banner-title{
+    font-family: "Merriweather", serif;
+    color: #FFFFFF;
+    font-size: 65px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+/* Banner section styles ends */
+
+
+/* 65% off section styles starts */
+
+/* .offer-container{
+    height: 500px;
+    margin-top: 48px;
+} */
+
+.offer-content{
+    text-align: center;
+}
+
+.offer-title{
+    font-family: "Inter", sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-top: 120px;
+}
+
+.offer-description{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-top: 40px;
+}
+
+.offer-subtitle{
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #070211;
+    margin-top: 12px;
+}
+
+.offer-image{
+    margin-top: 48px;
+    width: 650px;
+    height: 500px;
+}
+/* 65% off section styles ends */
+
+/* Welcome section styles starts */
+
+.welcome-container{
+    background-image: url('../images/Vectorrr.png');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 120px;
+/* ekhane margin 0 auto kaj kortese na */
+}
