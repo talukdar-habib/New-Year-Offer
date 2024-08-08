@@ -177,11 +177,223 @@
 }
 /* Card section styles ends */
 
-/* Coming soon styles starts */
+/* Coming soon section styles starts */
 
 .coming-soon-container{
     width: 1320px;
-    height: 600px;
+    height: 463px;
+    margin: 0 auto;
+    margin-top: 120px;
+    
+}
+
+.coming-soon-content{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+}
+
+.coming-soon-subtitle{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+
+.coming-soon-title{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-top: 16px;
+}
+
+.coming-soon-description{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #070211;
+    opacity: 60%;
+    margin-top: 22px;
+}
+
+.coming-soon-image{
+    margin-top: 30px;
+}
+
+.coming-soon-image img{
+    width: 340px;
+    height: 340px;
+}
+
+.ring{
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    /* box-sizing: border-box; */
+    border: 10px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    margin: -15px -355px;
+}
+
+.coming-soon-last-part-title{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-top: 130px;
+}
+
+.coming-soon-last-part-description{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #070211;
+    opacity: 60%;
+    margin-top: 15px;
+}
+
+.coming-soon-last-part-image{
+    width: 130px;
+    height: 130px;
+    margin-top: 40px;
+}
+/* Coming soon section styles ends */
+
+/* Holiday section styles starts */
+
+.holiday{
+    width: 1320px;
+    height: 986.07px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 120px;
+    position: relative;
+}
+
+.holiday-container{
+    /* width: 1068px;
+    height: 260px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.holiday-subtitle{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #070211;
+    margin-bottom: 14px;
+}
+
+.holiday-title{
+    font-family: "Merriweather", serif;
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.holiday-description{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 60%;
+    padding: 0 126px;
+    margin-top: 20px;
+}
+
+.holiday-bg{
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 76.75%;
+}
+
+.holiday-giftbox{
+    display: flex;
+}
+.gift{
+    width: 674.82px;
+    height: 577.96px;
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.holiday-discount{
+    width: 305px;
+    height: 305px;
+    padding-left: 177px;
+    margin-top: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    width: 1320px;
+    height: 1163px;
+    border: 1px solid blue;
     margin: 0 auto;
     margin-top: 120px;
 }
