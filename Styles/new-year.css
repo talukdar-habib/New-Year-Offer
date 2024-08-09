@@ -387,7 +387,7 @@
 .subscribe-container{
     width: 1320px;
     height: 616px;
-    border: 1px solid saddlebrown;
+    /* border: 1px solid saddlebrown; */
     margin: 0 auto;
     margin-top: 120px;
     background-color: rgba(255, 0, 0, 0.05);
@@ -418,18 +418,31 @@
 }
 
 .textarea-container{
-    padding-left: 336px;
+    padding-left: 220px;
     margin-top: 48px;
 }
 
 .user{
     width: 648px;
     height: 72px;
-    /* padding-left: 336px; */
+    padding-left: 40px;
+    /* border-radius: 50px 0px 0px 50px; */
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
 }
 
 .textarea-container button{
     width: 210px;
     height: 72px;
+    border-top-right-radius: 50px;  
+    border-bottom-right-radius: 50px;
+    position: relative;
+    right: 20px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    cursor: pointer;
 }
 
