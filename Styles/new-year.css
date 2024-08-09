@@ -445,4 +445,51 @@
     background-color: #FF0000;
     cursor: pointer;
 }
+/* Subscribe section styles ends */
+
+/* Footer section styles starts */
+
+.footer-container{
+    width: 1366px;
+    height: 600px;
+    background-color: #070211;
+}
+
+.footer-column{
+    margin: 0 auto;
+}
+
+.footer-column p{
+    color: #FFFFFF;
+    margin-top: 120px;
+}
+
+.footer-content{
+    display: flex;
+    width: 1100px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+footer hr{
+    width: 1100px;
+    margin: 0 auto;
+    opacity: 20%;
+}
+
+.footer-image-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-image-container a{
+    padding-right: 20px;
+}
+
+.copyright{
+    color: white;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+}
 
