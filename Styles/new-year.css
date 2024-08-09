@@ -265,16 +265,16 @@
 
 /* Holiday section styles starts */
 
-.holiday{
+.holiday-container{
     width: 1320px;
     height: 986.07px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     margin-top: 120px;
     position: relative;
 }
 
-.holiday-container{
+.holiday-content{
     /* width: 1068px;
     height: 260px; */
     display: flex;
@@ -333,67 +333,103 @@
     padding-left: 177px;
     margin-top: 140px;
 }
+/* Holiday section styles ends */
 
+/* Portfolio section styles starts */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container{
+.portfolio-container{
     width: 1320px;
-    height: 1163px;
-    border: 1px solid blue;
+    /* height: 1163px; */
+    /* border: 1px solid blue; */
     margin: 0 auto;
     margin-top: 120px;
 }
+
+.porfolio-subtitle{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 5px;
+}
+
+.portfolio-title{
+    font-family: "Merriweather", serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #070211;
+}
+
+.portfolio-description{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #070211;
+    opacity: 60%;
+    margin-top: 15px;
+}
+
+.portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.item img{
+    width: 424px;
+    height: 450px;
+}
+/* Portfolio section styles ends */
+
+/* Subscribe section styles starts */
+
+.subscribe-container{
+    width: 1320px;
+    height: 616px;
+    border: 1px solid saddlebrown;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+}
+
+.subscribe-content{
+    text-align: center;
+}
+
+.subscribe-content img{
+    margin-top: 80px;
+}
+
+.subscribe-content h1{
+    font-family: "Merriweather", serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.subscribe-content p{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 60%;
+    margin-top: 20px;
+}
+
+.textarea-container{
+    padding-left: 336px;
+    margin-top: 48px;
+}
+
+.user{
+    width: 648px;
+    height: 72px;
+    /* padding-left: 336px; */
+}
+
+.textarea-container button{
+    width: 210px;
+    height: 72px;
+}
+
